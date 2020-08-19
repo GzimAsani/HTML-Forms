@@ -1,17 +1,26 @@
 body{
-  background-color: lightgrey;
+  background-color: #ECEEF1;
 }
-
-
 
 .inline-block{
   display: inline-block;
 }
+
+.top-text-button-container{
+  display: block;
+  margin-top: 0;
+}
+
 #already-have-text-container{
-  width: 85%;
-  background-color: green;
+  width: 90%;
   line-height: 10%;
   float: left;
+  background-color: yellow;
+  font-size: 14px;
+  padding-right: 0;
+}
+.margin-left-85{
+  margin-left: 84%;
 }
 
 .color-blue{
@@ -23,16 +32,16 @@ body{
 }
 
 #sign-in-button-container{
-  background-color: yellow;
   line-height: 10%;
-  float: right;
+  float: left;
 }
 
 #sign-in-button{
   background-color: #0077C5;
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   border-radius: 5px;
+  padding: 10px;
 }
 .header-icon{
   width: 100px;
@@ -43,7 +52,7 @@ body{
   width: 550px;
   margin: 370px;;
   text-align: center;
-  margin-top: 5%;
+  margin-top: 1%;
   border: solid 1px rgb(202, 195, 195);
 }
 .icons{
@@ -57,5 +66,9 @@ body{
   height: 25px;
 }
 .main-inputs{
-  
+
+}
+
+label{
+  display: block;
 }
