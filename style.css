@@ -1,5 +1,6 @@
 body{
   background-color: #ECEEF1;
+  font-family:"AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .inline-block{
@@ -20,7 +21,7 @@ body{
   padding-right: 0;
 }
 .margin-left-85{
-  margin-left: 84%;
+  margin-left: 82%;
 }
 
 .color-blue{
@@ -41,20 +42,25 @@ body{
   color: white;
   font-size: 15px;
   border-radius: 5px;
-  padding: 10px;
+  margin-top: 3px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 14px;
+  padding-left: 14px;
+  border-style: none;
 }
+
 .header-icon{
   margin-left: 150px;
   width: 120px;
   height: 70px;
 }
+
 .main-container{
-  background-color: rgb(247, 244, 244);
   width: 400px;
   margin: 370px;
   text-align: center;
   margin-top: 1%;
-  border: solid 1px rgb(202, 195, 195);
   margin-left: 440px;
 }
 .main-inputs{
@@ -62,7 +68,7 @@ body{
   background-color: white;
   padding: 4%;
   border: #a19696 1px solid;
-  
+
 }
 #creation{
   width: 85%;
@@ -76,7 +82,7 @@ body{
 }
 
 .header-icon{
- 
+
   margin-right: 400px;
 }
 .icons{
@@ -126,7 +132,7 @@ label{
   margin-left: 100px;
   align-items: center;
   justify-content: center;
-  
+
 }
 .second-footer{
   margin-top: -350px;
@@ -134,5 +140,5 @@ label{
   font-size: 80%;
 }
 .last-footer{
- 
+
 }
