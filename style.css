@@ -15,7 +15,7 @@ body{
   width: 90%;
   line-height: 10%;
   float: left;
-  background-color: yellow;
+
   font-size: 14px;
   padding-right: 0;
 }
@@ -44,31 +44,95 @@ body{
   padding: 10px;
 }
 .header-icon{
-  width: 100px;
-  height: 60px;
+  margin-left: 150px;
+  width: 120px;
+  height: 70px;
 }
 .main-container{
   background-color: rgb(247, 244, 244);
-  width: 550px;
-  margin: 370px;;
+  width: 400px;
+  margin: 370px;
   text-align: center;
   margin-top: 1%;
   border: solid 1px rgb(202, 195, 195);
+  margin-left: 440px;
+}
+.main-inputs{
+  margin: 0 auto;
+  background-color: white;
+  padding: 4%;
+  border: #a19696 1px solid;
+  
+}
+#creation{
+  width: 85%;
+  background-color: #0077c5;
+  color: white;
+  height: 43px;
+  border: 1px white solid;
+  border-radius: 5px;
+  margin: 3% 0;
+  font-size: 100%;
+}
+
+.header-icon{
+ 
+  margin-right: 400px;
 }
 .icons{
-  font-size: 20px;
+  font-size: 120%;
   display: flex;
  align-items: center;
  justify-content: center;
 }
 .icon{
+  font-size: 120%;
+  display: flex;
+ align-items: center;
+ justify-content: center;
   width: 50px;
   height: 25px;
 }
-.main-inputs{
+.label-inputs{
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 130%;
 }
 
 label{
   display: block;
+}
+.terms{
+  color: grey;
+  font-size: 90%;
+  text-align: center;
+  padding: 1% 10%;
+}
+.tel-explanation{
+  font-size: 10px;
+}
+.first-footer{
+  text-decoration: none;
+  font-size: 80%;
+}
+
+.p-footer{
+  width: 0;
+  margin-top: -40px;
+  margin-right: 50px;
+  display: inline-block;
+  margin-left: 100px;
+  align-items: center;
+  justify-content: center;
+  
+}
+.second-footer{
+  margin-top: -350px;
+  text-align: center;
+  font-size: 80%;
+}
+.last-footer{
+ 
 }
