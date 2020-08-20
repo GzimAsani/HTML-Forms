@@ -1,7 +1,7 @@
 # HTML-Forms
-First project of Rayan Rassam and Gzim Asani.
+Second project of Rayan Rassam and Gzim Asani.
 
-<img src='./media/screen.png'>
+<img src='./media/Screen.png'>
 
 Additional description about the project and its features.
 
