@@ -45,28 +45,29 @@
 
         <form action="" method="post" autocomplete="off">
           <div class = 'label-inputs'>
-            <label for="email-address">Email Address</label>
+            <label for="email-address" class="label">Email Address</label>
             <input class = 'input'type="email" name="email-address" required="required">
           </div>
           <div class = 'label-inputs'>
-            <label  for="tel">Phone (recommended)</label>
+            <label  for="tel" class="label">Phone (recommended)</label>
             <input class = 'input' type="tel" name="tel" required="required">
             <p class = 'tel-explanation'>Standard call, messaging or data rates may apply.</p>
           </div>
+
           <div class = 'label-inputs'>
-            <label for="password">Password</label>
-            <input  class = 'input' type="password" name="password" required="required" >
-            
+            <label for="password" class="label">Password</label>
+            <input  class = 'input' type="password" name="password" required="required" ><i class="fas fas3 fa-unlock"></i>
           </div>
+
           <div class = 'create-account'>
-            <button id="creation"><i class="fas fa-unlock-alt create"></i>Create Account</button>
+            <button id="creation"><i class="fas fas2 fa-unlock-alt create"></i>Create Account</button>
           </div>
             <p class = 'terms'><i>By clicking Create account, you agree to our <a href="#">Terms</a> and have read and acknowledge
               our <a href="#">Privacy Statement</a></i></p></p>
         </section>
         </form>
       <footer class = 'first-footer'>
-        <p>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a></p>
+        <p id="captcha">Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a></p>
       </footer>
 
      </main>
