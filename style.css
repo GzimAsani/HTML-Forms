@@ -1,8 +1,7 @@
 body {
   background-color: #eceef1;
-
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
-} 
+}
 
 .inline-block {
   display: inline-block;
@@ -22,7 +21,6 @@ body {
 }
 
 .margin-left-85 {
-
   margin-left: 82%;
 }
 
@@ -103,7 +101,6 @@ body {
 }
 
 .label-inputs {
-  
   margin: 40px auto;
   justify-content: center;
   align-items: center;
