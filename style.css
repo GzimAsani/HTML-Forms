@@ -1,7 +1,8 @@
 body {
-  background-color: #eceef1; 
-  font-family:"AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
+  background-color: #eceef1;
+
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+} 
 
 .inline-block {
   display: inline-block;
@@ -20,7 +21,8 @@ body {
   padding-right: 0;
 }
 
-.margin-left-85 { 
+.margin-left-85 {
+
   margin-left: 82%;
 }
 
@@ -28,7 +30,7 @@ body {
   color: blue;
 }
 
-.float-right{
+.float-right {
   float: right;
 }
 
@@ -100,7 +102,8 @@ body {
   height: 25px;
 }
 
-.label-inputs { 
+.label-inputs {
+  
   margin: 40px auto;
   justify-content: center;
   align-items: center;
@@ -187,7 +190,7 @@ body {
   margin-top: -11px;
 }
 
-.p a{
+.p a {
   font-size: 13px;
 }
 
@@ -196,7 +199,7 @@ body {
 }
 
 .privacy-settings {
-  right: 5%; 
+  right: 5%;
   bottom: 0%;
   position: fixed;
   width: 130px;
