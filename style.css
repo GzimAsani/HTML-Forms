@@ -1,6 +1,6 @@
 body {
- background-color: "#eceef1"; 
- font-family:"AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #eceef1; 
+  font-family:"AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .inline-block {
@@ -8,8 +8,8 @@ body {
 }
 
 .top-text-button-container {
- display: block;
- margin-top: 0;
+  display: block;
+  margin-top: 0;
 }
 
 #already-have-text-container {
@@ -19,21 +19,26 @@ body {
   font-size: 14px;
   padding-right: 0;
 }
+
 .margin-left-85 { 
   margin-left: 82%;
 }
+
 .color-blue {
   color: blue;
 }
+
 .float-right{
   float: right;
 }
+
 #sign-in-button-container {
   line-height: 10%;
   float: left;
 }
+
 #sign-in-button {
-  background-color: #0077C5;
+  background-color: #0077c5;
   color: white;
   font-size: 15px;
   border-radius: 5px;
@@ -44,6 +49,7 @@ body {
   padding-left: 14px;
   border-style: none;
 }
+
 .header-icon {
   margin-left: 150px;
   width: 120px;
@@ -58,6 +64,7 @@ body {
   margin-top: 1%;
   margin-left: 440px;
 }
+
 .main-inputs {
   margin: 0 auto;
   background-color: white;
@@ -65,6 +72,7 @@ body {
   border: 1px solid  lightgrey;
   border-bottom-style: none;
 }
+
 #creation {
   width: 85%;
   background-color: #0077c5;
@@ -82,6 +90,7 @@ body {
   align-items: center;
   justify-content: center;
 }
+
 .icon {
   font-size: 120%;
   display: flex;
@@ -90,12 +99,14 @@ body {
   width: 50px;
   height: 25px;
 }
+
 .label-inputs { 
   margin: 40px auto;
   justify-content: center;
   align-items: center;
   font-size: 100%;
 }
+
 .input {
   border-radius: 4px;
   border-width: 1px;
@@ -104,6 +115,7 @@ body {
   width: 88%;
   height: 30px;
 }
+
 .label {
   float: left;
   margin-left: 5%;
@@ -111,17 +123,20 @@ body {
   font-size: 14px;
   z-index: 1;
 }
+
 .terms {
   color: grey;
   font-size: 90%;
   text-align: center;
   padding: 1% 10%;
 }
+
 .tel-explanation {
   font-size: 10px;
   float: left;
   margin-left: 5%;
 }
+
 .fas3 {
   color: lightgrey;
   display: inline-block;
@@ -130,9 +145,11 @@ body {
   margin-top: 0.5%;
   position: absolute;
 }
+
 .fas2 {
   margin-right: 10px;
 }
+
 .first-footer {
   margin-top: -10px;
   padding: 10px;
@@ -140,14 +157,16 @@ body {
   border-top-style: none;
   text-decoration: none;
   font-size: 80%;
-  background-color: #ECEEF1;
+  background-color: #eceef1;
 }
+
 .p-2-footer {
   font-size: 10px;
   margin: 5px;
   margin-left: 30px;
   color: rgb(36, 34, 34);
 }
+
 .p-footer {
   color: rgb(36, 34, 34);
   width: 20px;
@@ -156,21 +175,26 @@ body {
   display: flex;
   margin-left: 530px;
 }
+
 .second-footer {
   margin-top: -350px;
   text-align: center;
   font-size: 80%;
 }
+
 .third-footer {
   color: rgb(36, 34, 34);
   margin-top: -11px;
 }
+
 .p a{
   font-size: 13px;
 }
+
 #captcha {
   color: grey;
 }
+
 .privacy-settings {
   right: 5%; 
   bottom: 0%;
