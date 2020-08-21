@@ -5,7 +5,7 @@ body {
 
 .inline-block {
   display: inline-block;
-}
+ }
 
 .top-text-button-container {
   display: block;
@@ -117,14 +117,15 @@ body {
   height: 30px;
 }
 
-.password-input{
+.password-input {
   position: relative;
 }
 
-input:focus{
+input:focus {
   outline: none;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
 }
+
 .label {
   float: left;
   margin-left: 5%;
@@ -171,12 +172,13 @@ input:focus{
 
 .p-2-footer {
   font-size: 14px;
-  color:#505050;
+  color: #505050;
   display: inline-block;
   cursor: pointer;
   margin-right: 25px;
 }
-.p-2-footer:hover{
+
+.p-2-footer:hover {
   text-decoration: underline;
 }
 
@@ -206,8 +208,8 @@ input:focus{
   font-size: 13px;
 }
 
-.terms-links{
-  color:#0077C5;
+.terms-links {
+  color: #0077c5;
 }
 
 #captcha {
