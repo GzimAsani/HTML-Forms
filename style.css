@@ -59,10 +59,11 @@ body {
 
 .main-container {
   width: 400px;
-  margin: 370px;
   text-align: center;
   margin-top: 1%;
-  margin-left: 440px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
 }
 
 .main-inputs {
@@ -100,7 +101,7 @@ body {
   height: 25px;
 }
 
-.label-inputs {
+.labels-inputs {
   margin: 40px auto;
   justify-content: center;
   align-items: center;
@@ -116,6 +117,14 @@ body {
   height: 30px;
 }
 
+.password-input{
+  position: relative;
+}
+
+input:focus{
+  outline: none;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+}
 .label {
   float: left;
   margin-left: 5%;
@@ -139,11 +148,11 @@ body {
 
 .fas3 {
   color: lightgrey;
-  display: inline-block;
   z-index: 2;
-  right: 41%;
-  margin-top: 0.5%;
   position: absolute;
+  top: 30px;
+  right: 30px;
+  display: inline-block;
 }
 
 .fas2 {
@@ -162,33 +171,43 @@ body {
 
 .p-2-footer {
   font-size: 14px;
-  margin: 5px;
-  margin-left: 20px;
-  color: rgb(36, 34, 34);
+  color:#505050;
+  display: inline-block;
+  cursor: pointer;
+  margin-right: 25px;
+}
+.p-2-footer:hover{
+  text-decoration: underline;
 }
 
 .p-footer {
+  display: block;
   color: rgb(36, 34, 34);
-  width: 20px;
-  margin-top: -20px;
-  justify-content: space-between;
-  display: flex;
-  margin-left: 530px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
 }
 
 .second-footer {
-  margin-top: -350px;
+  margin-bottom: 0;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 80%;
 }
 
 .third-footer {
-  color: rgb(36, 34, 34);
+  color: grey;
   margin-top: -11px;
 }
 
 .p a {
   font-size: 13px;
+}
+
+.terms-links{
+  color:#0077C5;
 }
 
 #captcha {
